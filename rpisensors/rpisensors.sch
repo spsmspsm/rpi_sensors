@@ -1,0 +1,274 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x08_Male J2
+U 1 1 5EB87269
+P 5600 2200
+F 0 "J2" H 5708 2681 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 5708 2590 50  0000 C CNN
+F 2 "rj45:RJ45_8_Stewart_2891016" H 5600 2200 50  0001 C CNN
+F 3 "~" H 5600 2200 50  0001 C CNN
+	1    5600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J4
+U 1 1 5EB8872C
+P 7100 2200
+F 0 "J4" H 7208 2681 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 7208 2590 50  0000 C CNN
+F 2 "rj45:RJ45_8_Stewart_2891016" H 7100 2200 50  0001 C CNN
+F 3 "~" H 7100 2200 50  0001 C CNN
+	1    7100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J6
+U 1 1 5EB891CD
+P 8300 2100
+F 0 "J6" H 8408 2581 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 8408 2490 50  0000 C CNN
+F 2 "rj45:RJ45_8_Stewart_2891016" H 8300 2100 50  0001 C CNN
+F 3 "~" H 8300 2100 50  0001 C CNN
+	1    8300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male HAN++1
+U 1 1 5EB894BA
+P 9600 2100
+F 0 "HAN++1" H 9708 2581 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 9708 2490 50  0000 C CNN
+F 2 "rj45:RJ45_8_Stewart_2891016" H 9600 2100 50  0001 C CNN
+F 3 "~" H 9600 2100 50  0001 C CNN
+	1    9600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J7
+U 1 1 5EB8A05C
+P 8300 3700
+F 0 "J7" H 8408 4181 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 8408 4090 50  0000 C CNN
+F 2 "rj45:RJ45_8_Stewart_2891016" H 8300 3700 50  0001 C CNN
+F 3 "~" H 8300 3700 50  0001 C CNN
+	1    8300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J5
+U 1 1 5EB8A71E
+P 7100 3700
+F 0 "J5" H 7208 4181 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 7208 4090 50  0000 C CNN
+F 2 "rj45:RJ45_8_Stewart_2891016" H 7100 3700 50  0001 C CNN
+F 3 "~" H 7100 3700 50  0001 C CNN
+	1    7100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J3
+U 1 1 5EB8ADE6
+P 5700 3700
+F 0 "J3" H 5808 4181 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 5808 4090 50  0000 C CNN
+F 2 "rj45:RJ45_8_Stewart_2891016" H 5700 3700 50  0001 C CNN
+F 3 "~" H 5700 3700 50  0001 C CNN
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 5EB8B700
+P 3200 5100
+F 0 "J1" H 3250 6217 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 3250 6126 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 3200 5100 50  0001 C CNN
+F 3 "~" H 3200 5100 50  0001 C CNN
+	1    3200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5EB8D0D7
+P 2800 4100
+F 0 "#PWR0101" H 2800 3950 50  0001 C CNN
+F 1 "+3V3" H 2815 4273 50  0000 C CNN
+F 2 "" H 2800 4100 50  0001 C CNN
+F 3 "" H 2800 4100 50  0001 C CNN
+	1    2800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5EB8E0FA
+P 4000 4200
+F 0 "#PWR0102" H 4000 4050 50  0001 C CNN
+F 1 "+5V" H 4015 4373 50  0000 C CNN
+F 2 "" H 4000 4200 50  0001 C CNN
+F 3 "" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4200 4000 4200
+Wire Wire Line
+	3500 4300 3500 4200
+Connection ~ 3500 4200
+Wire Wire Line
+	3000 4200 2800 4200
+Wire Wire Line
+	2800 4200 2800 4100
+Text Label 3000 4300 2    50   ~ 0
+GPIO2
+Text Label 3000 4400 2    50   ~ 0
+GPIO3
+Text Label 3000 4500 2    50   ~ 0
+GPIO4
+Text Label 3000 4700 2    50   ~ 0
+GPIO17
+Text Label 3000 4800 2    50   ~ 0
+GPIO27
+Text Label 3000 4900 2    50   ~ 0
+GPIO22
+Text Label 3000 5100 2    50   ~ 0
+GPIO10
+Text Label 3000 5200 2    50   ~ 0
+GPIO9
+Text Label 3000 5300 2    50   ~ 0
+GPIO11
+Text Label 3000 5600 2    50   ~ 0
+GPIO5
+Text Label 3000 5700 2    50   ~ 0
+GPIO6
+Text Label 3000 5800 2    50   ~ 0
+GPIO13
+Text Label 3000 5900 2    50   ~ 0
+GPIO19
+Text Label 3000 6000 2    50   ~ 0
+GPIO26
+Text Label 3500 6100 0    50   ~ 0
+GPIO21
+Text Label 3500 6000 0    50   ~ 0
+GPIO20
+Text Label 3500 5900 0    50   ~ 0
+GPIO16
+Text Label 3500 5700 0    50   ~ 0
+GPIO12
+Text Label 3500 5400 0    50   ~ 0
+GPIO7
+Text Label 3500 5300 0    50   ~ 0
+GPIO8
+Text Label 3500 5200 0    50   ~ 0
+GPIO25
+Text Label 3500 5000 0    50   ~ 0
+GPIO24
+Text Label 3500 4900 0    50   ~ 0
+GPIO23
+Text Label 3500 4700 0    50   ~ 0
+GPIO18
+Text Label 3500 4600 0    50   ~ 0
+UART0_RX
+Text Label 3500 4500 0    50   ~ 0
+UART0_TX
+$Comp
+L power:GND #PWR0103
+U 1 1 5EBC821D
+P 4100 5800
+F 0 "#PWR0103" H 4100 5550 50  0001 C CNN
+F 1 "GND" H 4105 5627 50  0000 C CNN
+F 2 "" H 4100 5800 50  0001 C CNN
+F 3 "" H 4100 5800 50  0001 C CNN
+	1    4100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EBC84FC
+P 3000 6100
+F 0 "#PWR0104" H 3000 5850 50  0001 C CNN
+F 1 "GND" H 3005 5927 50  0000 C CNN
+F 2 "" H 3000 6100 50  0001 C CNN
+F 3 "" H 3000 6100 50  0001 C CNN
+	1    3000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5EBC8779
+P 2600 5400
+F 0 "#PWR0105" H 2600 5150 50  0001 C CNN
+F 1 "GND" H 2605 5227 50  0000 C CNN
+F 2 "" H 2600 5400 50  0001 C CNN
+F 3 "" H 2600 5400 50  0001 C CNN
+	1    2600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5EBC8B1E
+P 2200 5000
+F 0 "#PWR0106" H 2200 4850 50  0001 C CNN
+F 1 "+3V3" H 2215 5173 50  0000 C CNN
+F 2 "" H 2200 5000 50  0001 C CNN
+F 3 "" H 2200 5000 50  0001 C CNN
+	1    2200 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4800 3900 4800
+Wire Wire Line
+	3900 5100 3500 5100
+Wire Wire Line
+	3500 5800 3900 5800
+Wire Wire Line
+	2600 5400 3000 5400
+Wire Wire Line
+	2200 5000 3000 5000
+$Comp
+L power:GND #PWR0107
+U 1 1 5EBCA3DB
+P 2500 4600
+F 0 "#PWR0107" H 2500 4350 50  0001 C CNN
+F 1 "GND" H 2505 4427 50  0000 C CNN
+F 2 "" H 2500 4600 50  0001 C CNN
+F 3 "" H 2500 4600 50  0001 C CNN
+	1    2500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4600 2500 4600
+NoConn ~ 3500 5500
+NoConn ~ 3000 5500
+Wire Wire Line
+	3900 4800 3900 5100
+Wire Wire Line
+	3500 4400 3900 4400
+Wire Wire Line
+	3900 4400 3900 4800
+Connection ~ 3900 4800
+Wire Wire Line
+	3900 5100 3900 5600
+Wire Wire Line
+	3900 5600 3500 5600
+Connection ~ 3900 5100
+Wire Wire Line
+	3900 5600 3900 5800
+Connection ~ 3900 5600
+Connection ~ 3900 5800
+Wire Wire Line
+	3900 5800 4100 5800
+$EndSCHEMATC
